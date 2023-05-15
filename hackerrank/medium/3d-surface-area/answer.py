@@ -9,8 +9,10 @@
 
 def surfaceArea(A):
     totalArea = 0
-    for i in range(len(A)):
-        for j in range(len(A)):
+    H = len(A)
+    W = len(A[0])
+    for i in range(H):
+        for j in range(W):
             surfaceAreaAtCell = 0
             stackSizeAtCell = A[i][j]
             if stackSizeAtCell == 0:
@@ -35,14 +37,14 @@ def surfaceArea(A):
                 surfaceAreaAtCell += find_remaining_SA(newI, j, A, stackSizeAtCell)
 
             newJ = j + 1
-            if newJ >= len(A):
+            if newJ >= W:
                 # overflow means checking against empty region so all of that side is exposed
                 surfaceAreaAtCell += stackSizeAtCell
             else:
                 surfaceAreaAtCell += find_remaining_SA(i, newJ, A, stackSizeAtCell)
 
             newI = i + 1
-            if newI >= len(A):
+            if newI >= H:
                 # overflow means checking against empty region so all of that side is exposed
                 surfaceAreaAtCell += stackSizeAtCell
             else:
@@ -54,14 +56,28 @@ def surfaceArea(A):
 
 
 def find_remaining_SA(i, j, A, stackSizeAtCell):
+    print(i)
+    print(j)
     remainingArea = stackSizeAtCell - A[i][j]
     return 0 if remainingArea < 0 else remainingArea
 
 
 if __name__ == '__main__':
-    A = [[1, 3, 4],
-         [2, 2, 3],
-         [1, 2, 4]]
+    # A = [[1, 3, 4],
+    #      [2, 2, 3],
+    #      [1, 2, 4]]
+
+    A = [
+        [51],
+        [32],
+        [28],
+        [49],
+        [28],
+        [21],
+        [98],
+        [56],
+        [99],
+        [77]]
 
     result = surfaceArea(A)
     print(result)
