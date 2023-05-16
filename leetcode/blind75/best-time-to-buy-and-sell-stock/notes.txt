@@ -1,0 +1,16 @@
+1. Failed first approach due to time limit exceeded - solution was O(n^2)
+    - Failed when it came to larger test sets and had to take a different approach
+2. Overly complex second attempt with poor memory/cpu performance:
+    - Loop through array
+    - If next value is less, move onto next
+    - Compare current value to every other value onwards in the array
+    - Record profit for futureValue - current and override maxProfit if it's larger than maxProfit
+    - Break if next futureValue is less than current value
+    - Begin again from the 'futureValue'
+3. Optimal solution
+    - Required re-thinking about how the problem was solved.
+    - Save first price as minimum
+    - Save maxProfit as 0
+    - Repeat the following from index 1 to end of array:
+        - If next element is smaller, then record that as the minimum
+        - Else if nextElement - minimum > maxProfit then overwrite max profit
