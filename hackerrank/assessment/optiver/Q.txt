@@ -1,0 +1,17 @@
+Modify log.txt input to produce the following output to stdout
+
+
+IN:
+20140206,cme_trader_2,cme0001,0345-cme_trader_2.log.gz,15400000
+20140206,phlx_trader_1,phlx0001,0651-phlx_trader_1.log.gz,14100000
+20140206,phlx_trader_2,phlx0001,0645-phlx_trader_2.log.gz,13800000
+20140207,cme_trader_2,cme0001,0345-cme_trader_2.log.gz,15800000
+20140207,cme_trader_3,cme0001,0345-cme_trader_3.log.gz,14200000
+20140207,phlx_trader_1,phlx0001,0651-phlx_trader_1.log.gz,24100000
+
+OUT (ordered by date then exchange alphabetically, both ascending):
+date,exchange,total_bytes
+20140206,cme,15400000
+20140206,phlx,27900000
+20140207,cme,30000000
+20140207,phlx,24100000
