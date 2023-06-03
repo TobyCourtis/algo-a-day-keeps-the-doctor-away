@@ -15,3 +15,15 @@ select *
 from
     ( SELECT * from tmp_view order by length_of_city desc, city desc )
 where ROWNUM = 1;
+
+-- alternate:
+SELECT CITY, LENGTH(CITY) AS NAME_LENGTH
+FROM STATION
+WHERE LENGTH(CITY) IN (
+    SELECT MIN(LENGTH(CITY)) AS MIN_LENGTH
+    FROM STATION
+    UNION ALL
+    SELECT MAX(LENGTH(CITY)) AS MAX_LENGTH
+    FROM STATION
+)
+ORDER BY NAME_LENGTH, CITY
