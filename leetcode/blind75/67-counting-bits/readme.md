@@ -1,4 +1,4 @@
-Trivial enough. 
+Trivial enough on first attempt
 
 First submission beat 72% in runtime and 34% memory.
 
@@ -18,5 +18,7 @@ Cache:
 
 Optimal:
 - Bitshifting - see optimal.py
+- In the end fairly trivial leveraging caching and logical operations
+- Caching in my original attempt was close but overly complex
 
 
