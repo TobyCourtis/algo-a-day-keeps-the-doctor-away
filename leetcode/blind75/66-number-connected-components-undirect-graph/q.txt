@@ -1,0 +1,10 @@
+You have a graph of n nodes. You are given an integer n and an array edges where edges[i] = [ai, bi] indicating that there’s an edge between ai and bi in the graph.
+Return the number of connected components in this graph.
+
+
+
+NB - premium problem so I've taken the question from these sources:
+
+https://jonathan-ck-chao.medium.com/the-blind-75-leetcode-series-number-of-connected-components-in-an-undirected-graph-badb03d80032
+
+https://www.youtube.com/watch?v=8f1XPm4WOUc
