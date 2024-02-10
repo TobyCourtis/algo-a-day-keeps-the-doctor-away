@@ -19,6 +19,8 @@ def minFriends(numNodes, numEdges):
         next_min_node = nodes.index(min(nodes))
         nodes[next_min_node] += 1
 
+    # note if we turn nodes = [3,3,3,3] into a graph such as [[1,2], [1,3], [1,4] .... [4, 3]] then
+    # we can use leetcode number of connected components problem
     return max(nodes)
 
 
