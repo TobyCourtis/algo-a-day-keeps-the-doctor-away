@@ -11,4 +11,6 @@ NB:
 See a.py simple example case. Output = 2 as 2 seperate connected graphs are found
 
 
-Optimal (TODO - union find)
+Optimal:
+
+Union find is outlined in iPad notes for this problem and implemented in numberConnectedUnionFind()
