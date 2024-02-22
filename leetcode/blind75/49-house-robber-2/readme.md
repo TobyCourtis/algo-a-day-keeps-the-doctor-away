@@ -22,3 +22,6 @@ This is because intuitively, we cannot use both so we compute one solution with,
 NB - if we try to solve it all at once and get to the end of the array, we cannot just append the max(firstHouse, lastHouse) as the decision of which house from the start of the problem affects every other decision of which houses to rob.
 
 e.g if we rob house[1], compute all other houses then get to house[-1], we cannot just use house[-1] and subtract house[1], we need to recompute the entire problem
+
+
+Runtime beat 78%, memory 89%

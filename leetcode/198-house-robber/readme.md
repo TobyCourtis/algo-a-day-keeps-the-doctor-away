@@ -25,3 +25,5 @@ The approach coding:
     3. Note - We only ever need to maintain the previous 2 max values. Either we take adjacent val OR the val before
        that.
 4. return final max value find (in the example above it's index 3)
+
+Runtime beat 30%, memory 60%
