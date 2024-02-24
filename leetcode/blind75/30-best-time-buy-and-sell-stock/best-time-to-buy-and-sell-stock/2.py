@@ -30,6 +30,6 @@ class Solution:
 
 
 s = Solution()
-with open('./large_input.txt', 'r') as file:
+with open('large_input.txt', 'r') as file:
     largeIn = file.read()
 print(s.maxProfit([int(x) for x in largeIn.split(',')]))
