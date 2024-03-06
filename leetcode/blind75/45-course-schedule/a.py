@@ -121,9 +121,15 @@ class Solution:
                 q.append(i)
 
         # we to find each node with degree 0
+
+        # go to all nodes with no prerequisites and 'remove them' by reducing the indegree of all their adjacent nodes
+        # by 1.
+        # if the adjacent node indegree now == 0, then add it to the queue
+        # when we finish, if the graph has a loop then we won't visit the nodes in that loop (as none have indegree 0)
+        # if visited == numCourses then no loops, else there are loops
         visited = 0
         while q:
-            visited +=1
+            visited += 1
             # visit items in queue
             current_node = q.popleft()
             for adj in adjacenct_nodes[current_node]:
@@ -131,17 +137,15 @@ class Solution:
                 if indegree[adj] == 0:
                     q.append(adj)
 
-
-
         return numCourses == visited
 
 
 s = Solution()
 print(s.canFinish(numCourses=4, prerequisites=[[1, 3]]))
 
-
 print(s.canFinish(numCourses=2, prerequisites=[[1, 0], [0, 1]]))
 print(s.canFinish(numCourses=2, prerequisites=[[1, 0]]))
 print(s.canFinish(numCourses=1, prerequisites=[]))
 print(s.canFinishOne(numCourses=1, prerequisites=[[1, 0], [2, 6], [1, 7], [6, 4], [7, 0], [0, 5]]))
-print(s.canFinishOne(numCourses=1, prerequisites=[[0, 10], [3, 18], [5, 5], [6, 11], [11, 14], [13, 1], [15, 1], [17, 4]]))
+print(s.canFinishOne(numCourses=1,
+                     prerequisites=[[0, 10], [3, 18], [5, 5], [6, 11], [11, 14], [13, 1], [15, 1], [17, 4]]))
