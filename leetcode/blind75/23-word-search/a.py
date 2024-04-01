@@ -69,6 +69,9 @@ class Solution:
                     dfs(r - 1, c, index + 1)  # up
             )
 
+            # if the very first call was 0,0 which was "H" whilst search for "HELLO"
+            # if we reach the line below, H and all of it's neighbours have recursively been visited
+            # therefore we can remove it from visited now.
             visited.remove((r, c))  # now we've visited every possible cell in the recursion above, remove (r, c) from
             # visited so it can be visited in future calls to dfs()
 
