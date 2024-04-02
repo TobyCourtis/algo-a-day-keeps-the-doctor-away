@@ -10,7 +10,7 @@ class Solution:
 
             res = dfs(index + 1)  # dfs for next index because whatever the next char is (1-9), it is valid
 
-            if index < len(s) - 1 and int(s[index:index + 1]) <= 26:  # if less than 26, we can take next 2 chars
+            if index + 1 < len(s) and int(s[index:index + 2]) <= 26:  # if less than 26, we can take next 2 chars
                 res += dfs(index + 2)
 
             dp[index] = res  # set dp for current index to the accumulated total
