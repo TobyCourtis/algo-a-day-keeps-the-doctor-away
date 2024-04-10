@@ -38,6 +38,5 @@ class Solution:
 
 s = Solution()
 print(s.dieSimulator(n=2, rollMax=[1, 1, 2, 2, 2, 3]))
-
-# print(s.dieSimulator(n=2, rollMax=[1, 1, 1, 1, 1, 1]))
-# print(s.dieSimulator(n=3, rollMax=[1, 1, 1, 2, 2, 3]))
+print(s.dieSimulator(n=2, rollMax=[1, 1, 1, 1, 1, 1]))
+print(s.dieSimulator(n=3, rollMax=[1, 1, 1, 2, 2, 3]))
