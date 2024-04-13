@@ -9,6 +9,11 @@ class Solution:
 
         steps = 0
         """
+        First intuition was:
+        1. loop through s and see what t requires
+        2. loop through t and see what s requires
+        
+        
         if we loop through both maps twice, worst case is 26 * 2 = 52 loops
         
         instead see minSteps() where we go through a-z which is always 26 steps
