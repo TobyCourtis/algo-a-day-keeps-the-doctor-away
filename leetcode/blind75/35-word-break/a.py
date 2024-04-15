@@ -45,12 +45,13 @@ class Solution:
                 # starting at index s[i] does s[i:] match w
                 # i.e s[i:i+len(w)] == w
                 if (i + len(w)) <= len(s) and s[i: i + len(w)] == w:
-                    # dp[4] == dp[4 + len('code')] for case 'leetcode'
+                    # dp[4] = dp[4 + len('code')] for case 'leetcode'
+                    # dp[4] = dp[8]  which == True (empty string)
                     dp[i] = dp[i + len(w)]
                 if dp[i]:
                     break
 
-        return dp[0]
+        return dp[0]  # given we start at beginning of word, can we make it to the end
 
 
 s = Solution()
