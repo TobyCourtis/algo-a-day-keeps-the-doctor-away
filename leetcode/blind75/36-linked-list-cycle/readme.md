@@ -23,6 +23,6 @@ Mine was optimal in runtime
 
 For memory:
 
-- We would not have to keep a "seen" set if instead we changes the value of head.val for each node we saw to "0.5" (a unique number).
+- We would not have to keep a "seen" set if instead we changed the value of head.val for each node we saw to "0.5" (a unique number).
 - If we later encounter value 0.5 as head.val then we've looped! (return True).
 - If we reach end of list, head.next will equal None so return False
