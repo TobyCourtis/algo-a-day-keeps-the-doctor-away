@@ -10,6 +10,7 @@ class ProfileManager:
         # if error, raise the error rather than returning
         pass
 
+    @classmethod
     def get_profile(cls, func):
         # 1. Get UID
         # 2. return profile_stats[uid]
