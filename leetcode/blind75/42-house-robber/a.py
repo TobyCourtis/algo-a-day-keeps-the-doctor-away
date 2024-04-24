@@ -1,14 +1,14 @@
 class Solution:
     def rob(self, nums: list[int]) -> int:
-        rob1, rob2 = 0, 0
+        prev, prevPrev = 0, 0
 
         for house in nums:
-            temp = max(house + rob1, rob2)  # either we take current + prev - 1 OR just adjacent house (take the larger)
+            temp = max(house + prevPrev, prev)  # either we take current + prev - 1 OR just adjacent house (take the larger)
             # shift the prev and current rob values
-            rob1 = rob2
-            rob2 = temp
+            prevPrev = prev
+            prev = temp
 
-        return rob2
+        return prev
 
 
 s = Solution()
