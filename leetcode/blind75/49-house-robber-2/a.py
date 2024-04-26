@@ -4,9 +4,13 @@ class Solution:
             return nums[0]
 
         # whole array skipping final val OR whole3 array skipping first val
-        return max(self.helper(nums[:-1]), self.helper(nums[1:]))
+        return max(self.houseRobber(nums[:-1]), self.houseRobber(nums[1:]))
 
-    def helper(self, nums: list[int]) -> int:
+    """
+    House Robber 1 problem (problem 42)
+    """
+
+    def houseRobber(self, nums: list[int]) -> int:
         rob1, rob2 = 0, 0
 
         for i in range(len(nums)):
