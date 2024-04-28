@@ -37,7 +37,7 @@ class WordDictionary:
                 if c == ".":
                     # iterate through all children of current
                     for child in cur.children.values():
-                        # call dfs for remaining word and current child
+                        # call dfs for remaining word and current child e.g (+1, "a"), (+1, "b") etc ..
                         if dfs(i + 1, child):
                             return True
                     return False  # if all children return false for rest of word existing, return False
