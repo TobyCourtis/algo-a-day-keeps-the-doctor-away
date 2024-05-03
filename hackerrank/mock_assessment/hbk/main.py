@@ -78,6 +78,9 @@ class Bishop(Piece):
 Main phone number generator class.
 
 Entry method solve() should be called to print the solution output to stdout. 
+
+The assigment 
+
 """
 
 
@@ -153,6 +156,7 @@ class PhoneNumberGenerator:
         for num in self.starting_digits:
             dp[num] = 1
         if self.num_length == 7:  # account for rule 4 (even though this could be implied in starting digits)
+            # Rule = if length 7 then we cannot start with 0 or 1
             dp[0] = 0
             dp[1] = 0
         return dp
@@ -221,7 +225,7 @@ class PhoneNumberGeneratorTest(unittest.TestCase):
                                       ])
 
         actual = victim.solve()
-        assert actual == 8
+        assert actual == 8  # 8 numbers of length one which are just 'starting_digits'
 
     def test_sovle_bishop_length_2(self):
         victim = PhoneNumberGenerator(piece="bishop",
@@ -237,7 +241,7 @@ class PhoneNumberGeneratorTest(unittest.TestCase):
                                       ])
 
         actual = victim.solve()
-        assert actual == 4
+        assert actual == 4  # 4 numbers by starting at 5 as a bishop [51, 53, 57, 59]
 
     def test_sovle_bishop_skips_invalid_cells(self):
         victim = PhoneNumberGenerator(piece="bishop",
@@ -288,9 +292,9 @@ class PhoneNumberGeneratorTest(unittest.TestCase):
         assert actual == 952  # populated this after running, trusting it's output
 
 
-p = PhoneNumberGenerator()
-p.solve()
+# p = PhoneNumberGenerator()
+# p.solve()
 
 # uncomment me to run tests
-# if __name__ == "__main__":
-    # unittest.main()
+if __name__ == "__main__":
+    unittest.main()
