@@ -79,7 +79,14 @@ Main phone number generator class.
 
 Entry method solve() should be called to print the solution output to stdout. 
 
-The assigment 
+The assignment outline:
+
+- Given a phone dial pad with numbers 0-9 (see this line for the phone grid)
+- Given we start with chess piece(s) on given cell(s)
+- Given chess pieces can only move per their rules in chess (e.g a Knight in L shape, Bishop diagonally)
+- Given we want of phone number of length N (e.g 10), how many different phone numbers can we generate by moving the chess piece(s) around the number pad.
+
+See the tests at the bottom of the file for nice examples. E.g a bishop starting on number 5 and producing phone numbers of length 2 produces [51, 53, 57, 59] (5 then each of the diagonal moves).
 
 """
 
