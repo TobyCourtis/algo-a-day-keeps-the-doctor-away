@@ -26,7 +26,8 @@ class Solution:
 
         def dfs(c):
             if c in visit:
-                return visit[c]
+                return visit[c]  # this also means if we've done "t" before then we don't re-add t to path (res.append)
+                # if we do t -> f then next for loop we do w, visit["t"] will return False and not append to res
 
             visit[c] = True
 

@@ -1,13 +1,9 @@
 892 · Alien Dictionary
 
-Description
-Solution55
-Notes
-Discuss99+
-Leaderboard
-Record
-Description
-There is a new alien language which uses the latin alphabet. However, the order among letters are unknown to you. You receive a list of non-empty words from the dictionary, where words are sorted lexicographically by the rules of this new language. Derive the order of letters in this language.
+
+There is a new alien language which uses the latin alphabet. However, the order among letters are unknown to you.
+You receive a list of non-empty words from the dictionary, where words are sorted lexicographically by the rules
+ of this new language. Derive the order of letters in this language.
 
 Only $39.9 for the "Twitter Comment System Project Practice" within a limited time of 7 days!
 
