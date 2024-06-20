@@ -1,0 +1,77 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no" ?-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000"
+     height="600" viewBox="0 0 1000 600" xml:space="preserve"><desc>Created with Fabric.js 5.3.0</desc>
+    <defs><style>@import url("https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,400;0,700;1,700&amp;Grandstander:ital,wght@0,400;0,700;1,700&amp;Holtwood+One+SC:ital,wght@0,400;0,700;1,700&amp;Anton:ital,wght@0,400;0,700;1,700&amp;Gluten:ital,wght@0,400;0,700;1,700&amp;Open+Sans:ital,wght@0,400;0,700;1,700&amp;Roboto:ital,wght@0,400;0,700;1,700&amp;display=swap");</style></defs>
+    <g transform="matrix(1 0 0 1 500.5 207)" style="filter: url(#SVGID_8);" id="1718773238896"><filter id="SVGID_8" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <path id="textOnPathr7n6456ia" display="none" fill="transparent" stroke="rgba(0,0,0, 0.1)" stroke-width="1"
+              d="M -80 -9.797174393178826e-15 C -80 -44.18277998646348 -44.18277998646347 -80 0 -80 C 44.18277998646347 -80 80 -44.18277998646347 80 0 C 80 44.18277998646347 44.18277998646347 80 0 80 C -44.18277998646347 80 -80 44.18277998646347 -80 0 M 0 0"
+              style="display: none"></path>
+        <text font-family="Lobster" fill="#000000" font-size="56" font-style="normal" font-weight="normal"
+              letter-spacing="16.8"
+              style="                text-decoration: normal;                opacity: 1;                ">                  <textPath
+                xlink:href="#textOnPathr7n6456ia" startOffset="9.407705929968671" dominant-baseline="middle" dy="0"
+                style="                    stroke: null;                    stroke-width: 0;                  ">                  C                </textPath>
+            <textPath xlink:href="#textOnPathr7n6456ia" startOffset="55.03970635721477" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  u                </textPath>
+            <textPath xlink:href="#textOnPathr7n6456ia" startOffset="98.5437050754765" dominant-baseline="middle" dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  r                </textPath>
+            <textPath xlink:href="#textOnPathr7n6456ia" startOffset="137.39970422098432" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  v                </textPath>
+            <textPath xlink:href="#textOnPathr7n6456ia" startOffset="178.3837050754765" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  e                </textPath>
+            <textPath xlink:href="#textOnPathr7n6456ia" startOffset="216.67970422098432" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  d                </textPath>                </text></g>
+    <g transform="matrix(1 0 0 1 500.5 412)" style="filter: url(#SVGID_9);" id="1718773238903"><filter id="SVGID_9" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <path id="textOnPathnhut3j4h5" display="none" fill="transparent" stroke="rgba(0,0,0, 0.1)" stroke-width="1"
+              d="M 0 0 M -88 0 C -88 48.601057985109826 -48.601057985109826 88 0 88 C 48.60105798510983 88 88 48.601057985109826 88 0 C 88 -48.601057985109826 48.601057985109826 -88 0 -88 C -48.60105798510983 -88 -88 -48.60105798510984 -88 -1.0776891832496709e-14"
+              style="display: none"></path>
+        <text font-family="Grandstander" fill="#000000" font-size="18" font-style="normal" font-weight="normal"
+              letter-spacing="5.3999999999999995"
+              style="                text-decoration: normal;                opacity: 1;                ">                  <textPath
+                xlink:href="#textOnPathnhut3j4h5" startOffset="41.461516043229196" dominant-baseline="middle" dy="0"
+                style="                    stroke: null;                    stroke-width: 0;                  ">                  C                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="58.09451576857099" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  u                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="75.0965153565837" dominant-baseline="middle" dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  r                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="89.17351494459639" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  v                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="104.63651466993818" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  e                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="120.96913994459638" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  d                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="138.1241406312419" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                                   </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="150.0591406312419" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  B                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="167.025140768571" dominant-baseline="middle" dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  o                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="183.966390768571" dominant-baseline="middle" dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  t                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="199.04239090590008" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  t                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="214.11839104322917" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  o                </textPath>
+            <textPath xlink:href="#textOnPathnhut3j4h5" startOffset="231.05964104322916" dominant-baseline="middle"
+                      dy="0"
+                      style="                    stroke: null;                    stroke-width: 0;                  ">                  m                </textPath>                </text></g></svg>

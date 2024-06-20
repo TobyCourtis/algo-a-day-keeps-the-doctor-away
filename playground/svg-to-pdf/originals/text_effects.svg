@@ -1,0 +1,59 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no" ?-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000"
+     height="600" viewBox="0 0 1000 600" xml:space="preserve"><desc>Created with Fabric.js 5.3.0</desc>
+    <defs><style>@import url("https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,400;0,700;1,700&amp;Grandstander:ital,wght@0,400;0,700;1,700&amp;Holtwood+One+SC:ital,wght@0,400;0,700;1,700&amp;Anton:ital,wght@0,400;0,700;1,700&amp;Gluten:ital,wght@0,400;0,700;1,700&amp;Open+Sans:ital,wght@0,400;0,700;1,700&amp;Roboto:ital,wght@0,400;0,700;1,700&amp;display=swap");</style></defs>
+    <g transform="matrix(1 0 0 1 306 117)" style="filter: url(#SVGID_10);" id="1718773238910"><filter id="SVGID_10" y="-35%" height="170%" x="-25%" width="150%">
+
+        <feGaussianBlur
+                in="SourceAlpha" stdDeviation="3">
+
+    </feGaussianBlur>
+
+        <feOffset dx="11" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(184,16,16)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                      operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Holtwood One SC" font-size="36" font-style="normal" font-weight="normal"
+              style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-162.89" y="11.31" style="font-style: normal; font-weight: normal; ">Shadow Text</tspan></text></g>
+    <g transform="matrix(1 0 0 1 245 209)" style="filter: url(#SVGID_11);" id="1718773238912"><filter id="SVGID_11" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Anton" font-size="39" font-style="normal" font-weight="normal"
+              style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 0.48; white-space: pre;"><tspan x="-94.39" y="12.25" style="font-style: normal; font-weight: normal; ">Text Opacity</tspan></text></g>
+    <g transform="matrix(1 0 0 1 288 332)" style="filter: url(#SVGID_12);" id="1718773238915"><filter id="SVGID_12" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Gluten" font-size="40" font-style="normal" font-weight="normal"
+              style="stroke: rgb(238,71,71); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-119.36" y="12.57" style="font-style: normal; font-weight: normal; ">Text Stroke</tspan></text></g>
+    <g transform="matrix(1 0 0 1 713 117.56)" style="filter: url(#SVGID_13);" id="1718773238917"><filter id="SVGID_13" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Open Sans" font-size="35" font-style="normal" font-weight="normal"
+              style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-100.61" y="10.99" style="font-style: normal; font-weight: normal; ">Text Normal</tspan></text></g>
+    <g transform="matrix(1 0 0 1 691 206.74)" style="filter: url(#SVGID_14);" id="1718773238920"><filter id="SVGID_14" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Roboto" font-size="35" font-style="normal" font-weight="bold"
+              style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-74.26" y="10.99" style="font-style: normal; font-weight: bold; ">Text Bold</tspan></text></g>
+    <g transform="matrix(1 0 0 1 700 301.74)" style="filter: url(#SVGID_15);" id="1718773238921"><filter id="SVGID_15" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Roboto" font-size="35" font-style="italic" font-weight="normal"
+              style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-73.9" y="10.99" style="font-style: italic; font-weight: normal; ">Text Italic</tspan></text></g>
+    <g transform="matrix(1 0 0 1 700 388.74)" style="filter: url(#SVGID_16);" id="1718773238923"><filter id="SVGID_16" y="-20%" height="140%" x="-20%" width="140%">	<feGaussianBlur
+            in="SourceAlpha" stdDeviation="0"></feGaussianBlur>	<feOffset dx="0" dy="0" result="oBlur"></feOffset>	<feFlood
+            flood-color="rgb(0,0,0)" flood-opacity="1"></feFlood>	<feComposite in2="oBlur"
+                                                                                  operator="in"></feComposite>	<feMerge>		<feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>	</feMerge></filter>
+        <text xml:space="preserve" font-family="Roboto" font-size="35" font-style="italic" font-weight="bold"
+              style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;"><tspan x="-115.25" y="10.99" style="font-style: italic; font-weight: bold; ">Text Bold Italic</tspan></text></g></svg>
