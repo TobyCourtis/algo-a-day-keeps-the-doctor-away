@@ -3,8 +3,10 @@ import os
 from ics import Calendar, Event
 from datetime import datetime
 
+YEAR = 2026
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(script_dir, 'tides.csv')
+csv_path = os.path.join(script_dir, f'tidal_data/{YEAR}_tides.csv')
 
 calendar = Calendar()
 
@@ -43,7 +45,7 @@ for date, events in events_by_date.items():
 
     calendar.events.add(event)
 
-filename = 'Brancaster Tides.ics'
+filename = f'ics_output/Brancaster Tides {YEAR}.ics'
 ics_path = os.path.join(script_dir, filename)
 with open(ics_path, 'w') as file:
     file.writelines(calendar)
