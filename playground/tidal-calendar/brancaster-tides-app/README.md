@@ -4,7 +4,7 @@
 #### Linux
 
 `nvm use v16.20.0`
-`npm start`
+`npm run build`
 
 ```
 sudo rm -rf /var/www/bssctides.tobycourtis.com/*
