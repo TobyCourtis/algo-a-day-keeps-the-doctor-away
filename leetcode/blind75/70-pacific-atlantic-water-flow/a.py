@@ -80,12 +80,12 @@ class Solution:
                 dfs(i, j + 1, visited)
 
         for i in range(m):
-            dfs(i, 0, pacific)
-            dfs(i, n - 1, atlantic)
+            dfs(i, 0, pacific)  # start pacific col 0 (left)
+            dfs(i, n - 1, atlantic)  # start atlantic col -1 (right)
 
         for j in range(n):
-            dfs(0, j, pacific)
-            dfs(m - 1, j, atlantic)
+            dfs(0, j, pacific)  # start pacific row 0 (top)
+            dfs(m - 1, j, atlantic)  # start atlantic row -1  (bottom)
 
         return [[x, y] for x, y in list(pacific.intersection(atlantic))]
 
