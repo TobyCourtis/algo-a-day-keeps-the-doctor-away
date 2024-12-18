@@ -8,9 +8,6 @@ class Solution:
         atlantic = set()
         pacific = set()
 
-        # start at row 0, any col
-        # start at col 0, any row
-
         def dfs(i, j, visited):
             if (i, j) in visited:
                 return
